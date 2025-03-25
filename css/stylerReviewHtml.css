@@ -1,0 +1,44 @@
+font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #bd87fcaa;
+
+}
+
+h1 , h2{
+    text-align: center;
+    background-color: #1f1f1f;
+    padding: 10px #1f1f1f;
+    margin: 100px 100px 100px;
+    color: #c799fcaa;
+}
+
+p ,a,figcaption{
+    text-align: center;
+    margin: 100px 100px 100px;
+    color: #c392fcaa;
+    background-color: #1f1f1f;
+    padding: 10px;
+    margin: 100px 100px 100px;
+    border-radius: 1,5em;
+    border: 0.5rem dotted #c29fe9aa;
+   
+}
+
+body{
+    background-image: url("/home/felipe/Downloads/cats-7727977.svg");
+}
+.fotoGatoVetorial{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-items : center;
+}
+iframe, audio, video {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-items : center;
+}

@@ -11,6 +11,7 @@ h1 , h2{
     padding: 10px #1f1f1f;
     margin: 100px 100px 100px;
     color: #c799fcaa;
+    border: 0.5rem solid #c29fe9aa;
 }
 
 p ,a,figcaption{
@@ -26,7 +27,7 @@ p ,a,figcaption{
 }
 
 body{
-    background-image: url("/home/felipe/Downloads/cats-7727977.svg");
+    background-image: url("/home/felipe/Documentos/freecodecamp/PATH_De_Arquivos/d7a75a6e-fb27-409c-b1bd-f2c4975a8e1d.png");
 }
 .fotoGatoVetorial{
     display: flex;
@@ -41,4 +42,19 @@ iframe, audio, video {
     margin-right: auto;
     width: 50%;
     align-items : center;
+}
+#antrosEtGatus:link{
+    color: rgb(153, 0, 255);
+}
+#antrosEtGatus:visited{
+    color: rgb(35, 0, 82);
+}
+#antrosEtGatus:hover{
+  color: rgb(255, 102, 0);
+}
+#antrosEtGatus:active{
+    color: rgb(36, 0, 66);
+}
+#antrosEtGatus:focus{
+    color: rgb(247, 0, 255);
 }

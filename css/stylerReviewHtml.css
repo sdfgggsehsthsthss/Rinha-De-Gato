@@ -27,7 +27,7 @@ p ,a,figcaption{
 }
 
 body{
-    background-image: url("/home/felipe/Documentos/freecodecamp/PATH_De_Arquivos/d7a75a6e-fb27-409c-b1bd-f2c4975a8e1d.png");
+    background-image: url("../PATH_De_Arquivos/d7a75a6e-fb27-409c-b1bd-f2c4975a8e1d.png");
 }
 .fotoGatoVetorial{
     display: flex;
@@ -57,4 +57,18 @@ iframe, audio, video {
 }
 #antrosEtGatus:focus{
     color: rgb(247, 0, 255);
+}
+header{
+    background-color: #1f1f1f;
+    padding: 10px;
+    margin: 100px 100px 100px;
+    color: #c799fcaa;
+    border: 0.5rem solid #c29fe9aa;
+}
+footer{
+    background-color: #1f1f1f;
+    padding: 10px;
+    margin: 100px 100px 100px;
+    color: #c799fcaa;
+    border: 0.5rem solid #c29fe9aa;
 }

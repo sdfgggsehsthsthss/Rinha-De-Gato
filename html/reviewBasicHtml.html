@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Rinha de Gato</title>
@@ -26,9 +26,86 @@
     <h1><b>R</b>inha de <b><i>G</i></b>atos</h1>
     <p>bem vindo ao <sub>c</sub>a<sup>os</sup> do html css e js</p>
     <h2>sobre o site</h2>
+    <dl id="listaDeGatos">
+        <dt>gatos encapetados</dt>
+        <dd>laranjas</dd>
+        <dt>felinos apavorantemente fofos</dt>
+        <dd>gatos rajados</dd>
+        <dt>bolas de pelo rolantes</dt>
+        <dd>tricolores</dd>
+        <dt>e gapetas enjaulados</dt>
+        <dd>filhotes</dd>
+    </dl>
+    <div id="poemaFamoso">
+        <blockquote cite="https://www.pensador.com/frases_sobre_gatos/">
+            "miua miau mel miau meeeel miauuu miau cshiiiii"
+        </blockquote>
+        <p>
+            -Laranjinha Enquencreiro "<abbr title="Laranjinha Enquencreiro">Laren</abbr>" - <cite>As dificuldades da
+                batalhas da rua e Escalando sem
+                medo</cite>
+        </p>
+        <p>
+            Rajadinho Tranquilao "<abbr title="Rajadinho Tranquilao">Rajatra</abbr>" - responde esse clamor claramente
+            em<q cite="https://www.pensador.com/frases_sobre_gatos/">miaui kshiiii kshiiiiiiiiiiiii miau mel kshi</q>
+        </p>
+    </div>
+    <div class="primeiroForm">
+        <form method="" action="">
+            <div>
+                <label for="cat-name-form-one">Qual o nome dos seus gatos?</label>
+                <input required id="cat-name-form-one" name="cat-name" type="text"
+                    placeholder="Ex: Xaninha, Jubileuzin." size="40"></input>
+            </div>
+            <div>
+                <label for="cat-color">Quais as cores dos seus gatos?</label>
+                <input id="cat-color-form-one" type="text" name="cat-color" required placeholder="Ex: Laranja, Tigrado."
+                    size="40"></input>
+            </div>
+            <div>
+                <label for="loves-cats">Loves cats</label>
+                <input type="radio" id="loves-cats" name="cats-love-rating" checked></input>
+                <label for="likes-cats">Likes cats</label>
+                <input type="radio" id="likes-cats" name="cats-love-rating" ></input>
+                <label for="despise-cats">Despise cats</label>
+                <input type="radio" id="despise-cats" name="cats-love-rating" ></input>
+            </div>
+            <div>
+                <legend>
+                    how you've got your cat(s)?
+                </legend>
+                <label for="street-cat">Street</label>
+                <input checked type="checkbox" id="street-cat" name="how-got-cat" value="street"/>
+                <label for="store-cat">Store</label>
+                <input type="checkbox" id="store-cat" name="how-got-cat" value="store"/>
+                <label for="adopted-cat">Adopted</label>
+                <input type="checkbox" id="adopted-cat" name="how-got-cat" value="adopted"/>
+            </div>
+        </form>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#saxofonista">saxofonista</a></li>
+
+            <li><a href="#rinha-de-gatos">Rinha de gato</a></li>
+
+            <li><a href="#gatato">gatato</a></li>
+        </ul>
+    </nav>
     <p> O 1<sup><u>o</u></sup> site de rinha de gatos.</p>
     <h2>quero colocar uma animacao aqui</h2>
-
+    <h3>aqui esta uma linha de codigo em javascript</h3>
+    <pre>
+            <code>let funcaoEmSeta=(i)=>{return `${i}`}</code>
+    </pre>
+    <p> non textual annotation i think
+        <u>`heoifjsefjsekfekmfakemakempap`</u>
+        <s>esse e um acerto atraves "strikethrough"</s>
+        <ruby>海<rp>(</rp>
+            <rt>umi</rt>
+            <rp>)</rp>
+        </ruby>
+    </p>
     <ul>
         <li>chega voando da esquerda</li>
         <li>de transparente fica opaco</li>
@@ -42,7 +119,7 @@
         <figcaption>uma imagem num formato que presta</figcaption>
     </figure>
 
-    <figure>
+    <figure id="rinha-de-gatos">
         <p>aqui tem um video de gatos</p>
         <iframe src="https://www.youtube.com/embed/JVjDa0NmfeE?si=ggyLSiXzVrRJd751" title="YouTube video player"
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
@@ -54,25 +131,27 @@
         <audio controls src="../PATH_De_Arquivos/gato-38924.mp3" type="gato-38924/mpeg"></audio>
     </figure>
 
-    <figure>
+    <figure id="saxofonista">
         <p>um video de gatos saxofonistas</p>
         <video src="../PATH_De_Arquivos/32218-390916595.mp4"
             poster="https://pixabay.com/pt/illustrations/image-9473998/" loop controls muted height="720"></video>
     </figure>
 
-    <section>
+    <sectio">
         <a id="antrosEtGatus" href="https://www.youtube.com/playlist?list=PL4bd1ry2-H0P8B0HNOEqRddGLZEB790RT"
             target="_blank">antros et gatums </a>
-    </section>
+        </section>
 </body>
 <footer>
-    <address>
-        <h3>rinha de gatos</h3>
-        <p> 9999 PurPur Street ,SmoothPaws av.,<br>shiny eyes clean claw state cep 99-999999<br>online or at every
-            phone screen from an beloved aunt<br></p>
+    <section id="gatato">
+        <address>
+            <h3>rinha de gatos</h3>
+            <p> 9999 PurPur Street ,SmoothPaws av.,<br>shiny eyes clean claw state cep 99-999999<br>online or at every
+                phone screen from an beloved aunt<br></p>
+        </address>
         <p> Phone <a href="tel:+5561993144934">+55 (61)9 9314-4934</a></p>
         <p><a href="mailto:felipegorducho@hotmail.com">email de gatato</a></p>
-    </address>
+    </section>
 </footer>
 <script src="indexReviewHtml.js"></script>
 
